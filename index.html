@@ -1,4 +1,10 @@
+<h1>@jmo740 Domain Takeover Proof of Concept</h1>
+<h2 id="cookies"></h2>
+<h2 id="domain"></h2>
+
+
 <script>
   alert("@jmo740 Domain Takeover Proof of Concept");
-  location = "https://hackerone.com/jmo740";
+  document.getElementById("cookies").textContent = "Cookies: " + document.cookie;
+  document.getElementById("domain").textContent = "Domain: " + document.domain;
 </script>
