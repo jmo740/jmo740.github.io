@@ -1,1 +1,1 @@
-alert(document.cookie);alert(document.domain);alert("spaghettisec")
+alert(document.cookie);alert(document.domain);alert("@jmo740")
