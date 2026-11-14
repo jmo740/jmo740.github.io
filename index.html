@@ -151,7 +151,6 @@
     }
 
 
-    /* Bug Bounty Ressourcen */
     .resources{
       width:100%;
       margin-top:38px;
@@ -343,40 +342,59 @@
     </div>
 
 
-    <!-- Bug Bounty Links -->
     <details class="resources">
       <summary>
-        <span><i class="fas fa-bug" style="color:#f59e0b;margin-right:9px;"></i>Bug Bounty Resources</span>
+        <span><i class="fas fa-bug" style="color:#f59e0b;margin-right:9px;"></i>Web Security Resources</span>
       </summary>
 
       <div class="resource-content">
+         
+
+        <div class="resource-group">
+          <h2>Learning & Research</h2>
+          <div class="resource-links">
+            <a href="https://portswigger.net/web-security/cross-site-scripting" target="_blank" rel="noopener noreferrer">Cross-Site Scripting (XSS) <span>Reflected XSS (Non-Persistent XSS)<br>Stored XSS (Persistent XSS)<br>DOM-Based XSS<br>Blind XSS</span></a>
+            <a href="https://portswigger.net/web-security/sql-injection" target="_blank" rel="noopener noreferrer">SQL Injection (SQLi) <span>In-Band SQL Injection<br>Blind SQL Injection<br>Out-of-Band SQL Injection (OOB)<br>Second-Order SQL Injection</span></a>
+            <a href="https://portswigger.net/web-security/csrf" target="_blank" rel="noopener noreferrer">Cross-Site request forgery (CSRF) <span>GET-Based CSFF<br>POST-Based CSRF</span></a>
+            <a href="https://portswigger.net/web-security/ssrf" target="_blank" rel="noopener noreferrer">Server-side request forgery (SSRF) <span>Basic SSRF (Visible SSRF)<br>Blind SSRF<br>Semi-Blind SSRF<br>Second-Order SSRF</span></a>
+            <a href="https://portswigger.net/web-security/file-upload" target="_blank" rel="noopener noreferrer">File Upload Vulnerabilities <span>Remote Code Execution (RCE)<br>Stored Cross-Site Scripting<br>File Disclosure<br>File Overwrite & Deletion</span></a>
+            <a href="https://portswigger.net/web-security/file-path-traversal" target="_blank" rel="noopener noreferrer">Path Traversal <span>Absolute Path Traversal<br>Relative Path Traversal "../"<br>Directory Traversal</span></a>
+            <a href="https://portswigger.net/web-security/access-control" target="_blank" rel="noopener noreferrer">Broken Access Control (BAC) <span>Insecure direct object references (IDOR)<br>Vertical Privilege Escalation<br>Horizontal Privilege Escalation</span></a>
+            <a href="https://portswigger.net/web-security/web-cache-poisoning" target="_blank" rel="noopener noreferrer">Web Cache Poisoning <span>Stored Cross-Site Scripting<br>Denial of Service (DoS)<br>Open Redirect</span></a>
+            <a href="https://portswigger.net/web-security/web-cache-deception" target="_blank" rel="noopener noreferrer">Web Cache Deception <span>Information Disclosure<br>Account Takeover (ATO)</span></a>
+            <a href="https://portswigger.net/web-security/xxe" target="_blank" rel="noopener noreferrer">XML external entity injection (XXE) <span>In-band XXE<br>Blind XXE<br>Out-of-band (OOB) XXE</span> </a>
+            <a href="https://portswigger.net/web-security/race-conditions" target="_blank" rel="noopener noreferrer">Race Condition </a>
+            <a href="https://github.com/swisskyrepo/PayloadsAllTheThings" target="_blank" rel="noopener noreferrer">Other... <span>Open Redirect<br>CRLF Injection<br>E-Mail HTML Injection<br>HTML Injection<br>I-Frame Injection<br>CSS Injection<br>Rate Limit Bypass</span></a>
+          </div>
+        </div>
+        
+
+
+        <div class="resource-group">
+          <h2>Programming Languages</h2>
+          <div class="resource-links">
+            <a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noopener noreferrer">Javascript </a>
+            <a href="https://www.w3schools.com/python/default.asp" target="_blank" rel="noopener noreferrer">Python</a>
+            <a href="https://www.w3schools.com/sql/default.asp" target="_blank" rel="noopener noreferrer">SQL </a>
+            <a href="https://www.w3schools.com/php/default.asp" target="_blank" rel="noopener noreferrer">PHP </a>
+            <a href="https://www.w3schools.com/php/default.asp" target="_blank" rel="noopener noreferrer">Bash </a>
+            <a href="https://www.w3schools.com/php/default.asp" target="_blank" rel="noopener noreferrer">Java </a>
+          </div>
+        </div>
+
+          
         <div class="resource-group">
           <h2>Tools</h2>
           <div class="resource-links">
             <a href="https://portswigger.net/burp" target="_blank" rel="noopener noreferrer">Burp Suite <span>Web Security Testing</span></a>
             <a href="https://github.com/ffuf/ffuf" target="_blank" rel="noopener noreferrer">ffuf <span>Web fuzzing</span></a>
             <a href="https://github.com/projectdiscovery/nuclei" target="_blank" rel="noopener noreferrer">Nuclei <span>Template-based vulnerability scanner</span></a>
-            <a href="https://github.com/projectdiscovery/subfinder" target="_blank" rel="noopener noreferrer">Subfinder <span>Subdomain discovery</span></a>
-            <a href="https://github.com/projectdiscovery/httpx" target="_blank" rel="noopener noreferrer">httpx <span>HTTP probing</span></a>
+            <a href="https://github.com/projectdiscovery/subfinder" target="_blank" rel="noopener noreferrer">Subfinder (Recon) <span>Subdomain discovery</span></a>
+            <a href="https://github.com/projectdiscovery/httpx" target="_blank" rel="noopener noreferrer">httpx (Recon) <span>HTTP probing</span></a>
           </div>
         </div>
 
-        <div class="resource-group">
-          <h2>Learning &amp; Research</h2>
-          <div class="resource-links">
-            <a href="https://portswigger.net/web-security" target="_blank" rel="noopener noreferrer">PortSwigger Academy <span>Free Web Security Labs</span></a>
-            <a href="https://hakluke.com/how-to-start-or-come-back-to-bug-bounties-in-2026" target="_blank" rel="noopener noreferrer">How to start bug bounties in 2026 <span>hakluke</span></a>
-          </div>
-        </div>
-
-        <!--
-        <div class="resource-group">
-          <h2>Writeups</h2>
-          <div class="resource-links">
-            <a href="https://portswigger.net/web-security" target="_blank" rel="noopener noreferrer">PortSwigger Academy <span>Free Web Security Labs</span></a>
-          </div>
-        </div>
-        -->
+        
         <div class="resource-group">
           <h2>Bug Bounty Platforms</h2>
           <div class="resource-links">
